@@ -16,7 +16,13 @@ class App extends React.Component {
     return(
     
       <div>
-        <span>"Test"</span>
+        <div style={{backgroundColor: "black"}}>
+          <img alt="Hero Academia Logo" src={require("./assets/images/herologo-1.png")}></img>
+        </div>
+        <div style={{backgroundColor: "black"}}>
+          <span style={{color: "white"}}>"Coming Soon"</span>
+        </div>
+        
       </div>
     )
   }
